@@ -143,8 +143,8 @@ This project is not currently deployed.
 👤 **Meryem Sanem Küçükbayram**
 
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
-- Twitter: [@msanemkckbayram](https://twitter.com/twitterhandle)
-- LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@msanemkckbayram](https://twitter.com/msanemkckbayram)
+- LinkedIn: [Meryem Sanem Küçükbayram](https://www.linkedin.com/in/meryem-sanem-kucukbayram-047a831b5/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
