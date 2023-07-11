@@ -1,0 +1,16 @@
+.input-btn {
+  border: 1px solid #b0afaf;
+  background-color: whitesmoke;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.signs {
+  background-color: #ff791f;
+}
+
+.zero {
+  grid-column: 1/3;
+}
