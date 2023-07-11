@@ -1,1 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.calc-container {
+  display: grid;
+  width: 27rem;
+  height: 25rem;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 10rem auto;
+  border: 2px solid white;
+}
+
+.result {
+  grid-column: 1/5;
+  background-color: #b0afaf;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.3rem;
+  color: white;
+  font-size: 25px;
+}
