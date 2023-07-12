@@ -14,7 +14,7 @@
   border: 2px solid white;
 }
 
-.result {
+.output {
   grid-column: 1/5;
   background-color: #b0afaf;
   display: flex;
