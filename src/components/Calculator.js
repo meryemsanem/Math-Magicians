@@ -25,15 +25,6 @@ const calcElements = [
   '=',
 ];
 
-// const Calculator = () => (
-//   <div className="calc-container">
-//     <div className="result">0</div>
-//     {calcElements.map((number) => (
-//       <Items number={number} key={number} />
-//     ))}
-//   </div>
-// );
-
 function Calculator() {
   const [output, setOutput] = useState({
     total: null,
