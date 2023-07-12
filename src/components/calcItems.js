@@ -4,11 +4,11 @@ import './calcItems.css';
 
 const Items = ({ number, handleClick }) => {
   if (
-    number === '\u00F7' ||
-    number === 'x' ||
-    number === '-' ||
-    number === '+' ||
-    number === '='
+    number === '\u00F7'
+    || number === 'x'
+    || number === '-'
+    || number === '+'
+    || number === '='
   ) {
     return (
       <button type="button" className="input-btn signs" onClick={handleClick}>
