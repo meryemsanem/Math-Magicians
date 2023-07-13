@@ -1,0 +1,12 @@
+.quotes-container {
+  text-align: center;
+}
+
+.quote {
+  font-size: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 30px;
+}
