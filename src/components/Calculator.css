@@ -6,21 +6,22 @@
 
 .calc-container {
   display: grid;
-  width: 27rem;
-  height: 25rem;
+  width: 30rem;
+  height: 28rem;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
-  margin: 10rem auto;
-  border: 2px solid white;
+  margin: 5rem auto;
+  border: 1px solid lightgray;
 }
 
 .output {
   grid-column: 1/5;
-  background-color: #b0afaf;
+  background-color: lightgray;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0.3rem;
-  color: white;
+  color: #ff07d1;
   font-size: 25px;
+  padding-right: 20px;
 }
