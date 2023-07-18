@@ -1,12 +1,21 @@
 .quotes-container {
   text-align: center;
+  margin: 15rem;
 }
 
-.quote {
-  font-size: 20px;
+.quote,
+.author {
+  font-size: 30px;
+  color: #ff07d1;
 }
 
 .loading {
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
+  color: #ff07d1;
+  margin: 5rem;
+}
+
+.author {
+  padding-top: 1rem;
 }

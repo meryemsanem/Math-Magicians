@@ -1,0 +1,27 @@
+html {
+  background-color: bisque;
+  color: #ff0cd3;
+  height: 200px;
+}
+
+h2 {
+  font-size: 38px;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  color: #ff07d1;
+}
+
+.text-container p {
+  text-align: center;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 50px;
+}
+
+.math {
+  color: #ff07d1;
+  padding-top: 5rem;
+  font-size: 38px;
+  text-align: center;
+}
