@@ -9,7 +9,7 @@ test('renders the QuotePage component', () => {
   render(
     <MemoryRouter>
       <QuotePage />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
 
   const navbarElement = screen.getByRole('navigation');
@@ -21,7 +21,7 @@ test('renders the QuotePage component', () => {
   const componentTree = renderer.create(
     <MemoryRouter>
       <QuotePage />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
   expect(componentTree.toJSON()).toMatchSnapshot();
 });

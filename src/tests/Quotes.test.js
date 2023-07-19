@@ -1,19 +1,18 @@
 import React from 'react';
-import { render, screen, waitFor, act } from '@testing-library/react';
+import {
+  render, screen, waitFor, act,
+} from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import renderer from 'react-test-renderer';
 import Quotes from '../components/Quotes';
 
 const waitForFetch = (data) => {
-  global.fetch = jest.fn(() =>
-    Promise.resolve({
-      json: () => Promise.resolve(data),
-    })
-  );
+  global.fetch = jest.fn(() => Promise.resolve({
+    json: () => Promise.resolve(data),
+  }));
 };
 
 test('shows charging status while getting data', async () => {
-
   waitForFetch([]);
 
   render(<Quotes />);
@@ -21,7 +20,6 @@ test('shows charging status while getting data', async () => {
   const loadingElement = await screen.findByText(/Quote is loading/i);
   expect(loadingElement).toBeInTheDocument();
 });
-
 
 test('show citations and authors after getting the data', async () => {
   waitForFetch([
@@ -48,5 +46,3 @@ test('matches the snapshot', () => {
   const componentTree = renderer.create(<Quotes />);
   expect(componentTree.toJSON()).toMatchSnapshot();
 });
-
-

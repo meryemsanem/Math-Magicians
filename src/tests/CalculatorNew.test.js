@@ -9,7 +9,7 @@ describe('CalculatorNew', () => {
     render(
       <BrowserRouter>
         <CalculatorNew />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
     const navbar = screen.getByText('Math Magicians');
     expect(navbar).toBeInTheDocument();

@@ -7,7 +7,7 @@ test('renders the Navbar component', () => {
   render(
     <MemoryRouter>
       <Navbar />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
 
   const headerText = screen.getByText(/Math Magicians/i);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Home from '../components/Home.js';
+import Home from '../components/Home';
 
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
@@ -15,7 +15,7 @@ describe('Home component', () => {
     render(
       <MemoryRouter>
         <Home />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const welcomeMessage = screen.getByText(/Welcome to Math World!/i);
@@ -28,7 +28,7 @@ describe('Home component', () => {
     render(
       <MemoryRouter>
         <Home />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     const paragraphText = screen.getByText(/Lorem ipsum dolor sit amet/i);
