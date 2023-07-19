@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Items from './calcItems';
 import './Calculator.css';
+import Items from './calcItems';
 import calculate from '../logic/calculate';
 
 const calcElements = [
   'AC',
   '+/-',
   '%',
-  '\u00F7',
+  '÷',
   '7',
   '8',
   '9',
@@ -24,7 +24,6 @@ const calcElements = [
   '.',
   '=',
 ];
-
 function Calculator() {
   const [output, setOutput] = useState({
     total: null,
@@ -47,4 +46,5 @@ function Calculator() {
     </div>
   );
 }
+
 export default Calculator;
