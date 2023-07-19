@@ -1,13 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
 test('renders the Navbar component', () => {
   render(
     <MemoryRouter>
       <Navbar />
-    </MemoryRouter>,
+    </MemoryRouter>
   );
 
   const headerText = screen.getByText(/Math Magicians/i);
@@ -21,4 +21,7 @@ test('renders the Navbar component', () => {
 
   const quoteLink = screen.getByRole('link', { name: /Quote/i });
   expect(quoteLink).toBeInTheDocument();
+
+  const navbarComponent = screen.getByRole('navigation');
+  expect(navbarComponent).toMatchSnapshot();
 });
