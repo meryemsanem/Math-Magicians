@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente Quotes coincide con el snapshot 1`] = `<div />`;
+
+exports[`Quotes component matches snapshot 1`] = `<div />`;
+
+exports[`coincide con el snapshot 1`] = `<div />`;
+
+exports[`matches the snapshot 1`] = `<div />`;
